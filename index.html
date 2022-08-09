@@ -185,7 +185,7 @@
                               ./images/team/tablet1-2x.jpg 2x">
               <source media="(min-width: 1200px)" srcset="./images/team/decktop1.jpg 1x, 
                               ./images/team/decktop1-2x.jpg 2x">
-              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" width="450" alt="Фото Ігор Дем'яненко"
+              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" alt="Фото Ігор Дем'яненко"
                 title="Ігор Дем'яненко">
             </picture>
             <!-- <img src="./images/team/img4.jpg" alt="мужчина" width="270" height="260" /> -->
@@ -234,7 +234,7 @@
                                           ./images/team/tablet2-2x.jpg 2x">
               <source media="(min-width: 1200px)" srcset="./images/team/decktop2.jpg 1x, 
                                           ./images/team/decktop2-2x.jpg 2x">
-              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" width="450" alt="женщина в очках"
+              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" alt="женщина в очках"
                 title="Ольга Репина">
             </picture>
             <!-- <img src="./images/team/img5.jpg" alt="женщина в очках" width="270"
@@ -285,7 +285,7 @@
                                                       ./images/team/tablet3-2x.jpg 2x">
               <source media="(min-width: 1200px)" srcset="./images/team/decktop3.jpg 1x, 
                                                       ./images/team/decktop3-2x.jpg 2x">
-              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" width="450" alt="рыжеволосый мужчина"
+              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" alt="рыжеволосый мужчина"
                 title="Николай Тарасов">
             </picture>
             <!-- <img src="./images/team/img6.jpg" alt="рыжеволосый мужчина" width="270" height="260" /> -->
@@ -333,7 +333,7 @@
                                                                   ./images/team/tablet4-2x.jpg 2x">
               <source media="(min-width: 1200px)" srcset="./images/team/decktop4.jpg 1x, 
                                                                   ./images/team/decktop4-2x.jpg 2x">
-              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" width="450" alt="мужчина в очках"
+              <img class="box-image" src="./images/team/photomobile1(1x)_450.jpg" alt="мужчина в очках"
                 title="Михаил Ермаков">
             </picture>
             <!-- <img src="./images/team/img7.jpg" alt="мужчина в очках" width="270" height="260" /> -->
@@ -507,85 +507,88 @@
 
     </div>
   </footer>
+  </li>
+  <li class="footer-social-item">
+    <a class="footer-social-link" href="#">
 
 
 
 
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <button class="modal-close-btn" data-modal-close>
-        <svg class="modal-close-btn-icon" width="18" height="18">
-          <use href="./images/sprite.svg#icon-close-btn"></use>
-        </svg>
-      </button>
-
-
-      <form class="contact-form">
-        <b class="modal-item">Оставьте свои данные, мы вам перезвоним</b>
-
-        <span class="contact-form-field">
-          <label class="contact-form-element-desc" for="user_name">
-            Имя</label>
-          <input type="text" class="contact-form-input" name="user_name" required minlength="2"
-            pattern="^[a-zA-Zа-яА-Я]+$" />
-          <svg class="contact-form__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-person"></use>
-          </svg>
-
-        </span>
-
-        <span class="contact-form-field">
-          <label class="contact-form-element-desc" for="user_phone">
-            Телефон</label>
-          <input type="tel" class="contact-form-input" name="user_phone_number" required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" />
-          <svg class="contact-form__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-phone"></use>
-          </svg>
-        </span>
-
-
-        <span class="contact-form-field">
-          <label class="contact-form-element-desc" for="user_mail">
-            Почта</label>
-          <input class="contact-form-input" name="mail_post" id="mail" required />
-          <svg class="contact-form__icon" width="18" height="18">
-            <use href="./images/sprite.svg#icon-email"></use>
-          </svg>
-        </span>
-
-        <span class="contact-form-field">
-          <label class="contact-form-element-desc">
-            Комментарий</label>
-          <textarea class="contact-form-message" name="comment" id="comment" rows="5"
-            placeholder="Введите текст"></textarea>
-        </span>
-
-
-        <span class="callback-form__item policy-checkbox">
-          <label class=" colback-form-field policy-checkbox__label">
-            <input id="user-policy" name="user_policy" type="checkbox" class="contact-form-checkbox visually--hidden"
-              required value="policy" />
-            <svg class="form-check-icon">
-              <use href="./images/sprite.svg#check"></use>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button class="modal-close-btn" data-modal-close>
+            <svg class="modal-close-btn-icon" width="18" height="18">
+              <use href="./images/sprite.svg#icon-close-btn"></use>
             </svg>
-            <svg class="form-uncheck-icon">
-              <use href="./images/sprite.svg#un-check"></use>
-            </svg>
-            Соглашаюсь с рассылкой и принимаю
-            <a class="policy-checkbox__link" href="">Условия
-              договора</a>
-          </label>
-        </span>
-        <button type=" submit" class="contact-form-submit">отправить</button>
+          </button>
 
 
-      </form>
-    </div>
+          <form class="contact-form">
+            <b class="modal-item">Оставьте свои данные, мы вам перезвоним</b>
+
+            <span class="contact-form-field">
+              <label class="contact-form-element-desc" for="user_name">
+                Имя</label>
+              <input type="text" class="contact-form-input" name="user_name" required minlength="2"
+                pattern="^[a-zA-Zа-яА-Я]+$" />
+              <svg class="contact-form__icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-person"></use>
+              </svg>
+
+            </span>
+
+            <span class="contact-form-field">
+              <label class="contact-form-element-desc" for="user_phone">
+                Телефон</label>
+              <input type="tel" class="contact-form-input" name="user_phone_number" required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" />
+              <svg class="contact-form__icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
+            </span>
+
+
+            <span class="contact-form-field">
+              <label class="contact-form-element-desc" for="user_mail">
+                Почта</label>
+              <input class="contact-form-input" name="mail_post" id="mail" required />
+              <svg class="contact-form__icon" width="18" height="18">
+                <use href="./images/sprite.svg#icon-email"></use>
+              </svg>
+            </span>
+
+            <span class="contact-form-field">
+              <label class="contact-form-element-desc">
+                Комментарий</label>
+              <textarea class="contact-form-message" name="comment" id="comment" rows="5"
+                placeholder="Введите текст"></textarea>
+            </span>
+
+
+            <span class="callback-form__item policy-checkbox">
+              <label class=" colback-form-field policy-checkbox__label">
+                <input id="user-policy" name="user_policy" type="checkbox"
+                  class="contact-form-checkbox visually--hidden" required value="policy" />
+                <svg class="form-check-icon">
+                  <use href="./images/sprite.svg#check"></use>
+                </svg>
+                <svg class="form-uncheck-icon">
+                  <use href="./images/sprite.svg#un-check"></use>
+                </svg>
+                Соглашаюсь с рассылкой и принимаю
+                <a class="policy-checkbox__link" href="">Условия
+                  договора</a>
+              </label>
+            </span>
+            <button type=" submit" class="contact-form-submit">отправить</button>
+
+
+          </form>
+        </div>
 
 
 
-    <script src="./js/modal.js"></script>
+        <script src="./js/modal.js"></script>
 
 </body>
 
