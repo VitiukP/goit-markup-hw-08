@@ -1,0 +1,45 @@
+.hero { background: #2f303a;
+padding: 118px 0;
+    background: #2f303a;
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        // url(../images/bg.jpg)
+        ;
+    background-repeat: no-repeat;
+    border-top: 0ch;
+    background-size: cover;
+    background-position: center;
+@media screen and (min-width:768px) {
+        padding: 128px 0;
+    }
+    @media screen and (min-width:1200px) 
+    {padding: 200px 0;}
+
+    
+}
+
+
+
+.hero__slogan {
+    min-width: 360px;
+    font-weight: 900;
+font-size: 26px;
+    line-height: 1.61;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    margin-bottom: 30px;
+
+@media screen and (min-width:1200px) {
+  font-size: 44px;
+    line-height: 1.37;
+
+   }
+}

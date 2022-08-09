@@ -1,0 +1,27 @@
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+     font-size: 26px;
+     line-height: 1.17;
+    letter-spacing: 0.03em;
+  color: #000000;
+
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+   
+ &:hover,
+ &:focus {
+     color: var(--hover-color);
+ } 
+}
+
+// .footer-logo {
+//     color: #ffffff;
+// }
+
+ .logo-black {
+     font-family: var(--secondary-font);
+
+     color: var(--hover-color);
+ }
+

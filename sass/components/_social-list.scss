@@ -1,0 +1,32 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    fill: #afb1b8;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+&:hover,
+&:focus {
+    background: var(--hover-color);
+}
+&:hover .social-eclipse,
+&:focus .social-eclipse {
+    fill: #ffffff;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+.social-eclipse {
+    fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
