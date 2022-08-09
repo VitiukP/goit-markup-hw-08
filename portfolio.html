@@ -17,38 +17,80 @@
 
 <body>
   <header class="header ">
-    <div class="page-header-container container">
-      <a class="logo link" href="./index.html">
-        <span class="logo-black">Web</span>Studio
-      </a>
-      <nav class="menu-nav">
+    <div class="container">
+      <div class="page-header-container">
+        <a class="logo link" href="./index.html">
+          <span class="logo-black">Web</span>Studio
+        </a>
+        <button class="button-menu" type="button">
+          <svg class="button-menu__image" width="40px" height="40px">
+            <use class="button-menu__icon-open" href="./images/sprite.svg#icon-burger"></use>
+            <use class="button-menu__icon-close" href="./images/sprite.svg#icon-close_button"></use>
+          </svg>
+        </button>
 
-        <ul class="header-list list">
-          <li class="menu-nav__items"><a class=" link link__studio" href="./index.html">Студия</a></li>
-          <li class="menu-nav__items"><a class="currrent link link__portfolio" href="./portfolio.html">Портфолио</a>
+        <div class="mobil-menu-nav ">
+          <nav class="mobil-nav">
+
+            <ul class="mobil-nav-list list">
+              <li class="mobil-menu-nav__items">
+                <a class=" link mobile-navigation__link" href="./index.html">Студия</a>
+              </li>
+              <li class="mobil-menu-nav__items">
+                <a class="link mobile-navigation__link current " href="./portfolio.html">Портфолио</a>
+              </li>
+              <li>
+                <a class="link mobile-navigation__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact-info list">
+            <li class="mobil-menu-nav__items">
+              <a class="mobile-navigation__link mobile-navigation__link--email link" href="mailto:info@devstudio.com">
+                <svg class="mobile-navigation__link-icon " width="16" height="12">
+                  <use href="./images/sprite.svg#icon-post"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="mobil-menu-nav__items">
+              <a class="mobile-navigation__link mobile-navigation__link--number link" href="tel:+380961111111">
+                <svg class="mobile-navigation__link-icon" width="10" height="16">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+
+        <nav class="menu-nav">
+
+          <ul class="header-list list">
+            <li class="menu-nav__items"><a class="currrent link link__studio" href="./index.html">Студия</a></li>
+            <li class="menu-nav__items"><a class="link link__portfolio" href="./portfolio.html">Портфолио</a></li>
+            <li class="menu-nav__items"><a class="link link__contact" href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-info list">
+          <li class="contact-info__mail">
+            <a class="contact-info-mail__link link" href="mailto:info@devstudio.com">
+              <svg class="icon__post" width="16" height="12">
+                <use href="./images/sprite.svg#icon-post"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
-          <li><a class="link link__contact" href="#">Контакты</a></li>
+          <li class="contact-info__call">
+            <a class="contact-info-call__link link" href="tel:+380961111111">
+              <svg class="icon__phone" width="10" height="16">
+                <use href="./images/sprite.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11</a>
+          </li>
+
         </ul>
-      </nav>
-      <ul class="contact-info list">
-        <li class="contact-info__mail">
-          <a class="contact-info-mail__link link" href="mailto:info@devstudio.com">
-            <svg class="icon__post" width="16" height="12">
-              <use href="./images/sprite.svg#icon-post"></use>
-            </svg>
-            info@devstudio.com
-          </a>
-        </li>
-        <li class="contact-info__call">
-          <a class="contact-info-call__link link" href="tel:+380961111111">
-            <svg class="icon__phone" width="10" height="16">
-              <use href="./images/sprite.svg#icon-smartphone"></use>
-            </svg>+38 096 111 11 11</a>
-        </li>
+      </div>
 
-      </ul>
+
     </div>
-
 
 
   </header>
@@ -78,7 +120,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img8.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img8.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
@@ -95,7 +138,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img9.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img9.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
@@ -111,7 +155,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img10.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img10.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
@@ -127,7 +172,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img11.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img11.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
@@ -143,7 +189,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img12.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img12.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
@@ -159,7 +206,8 @@
           <li class="list-image color-card">
 
             <a class="card-box link" href="#">
-              <div class="overlay"><img src="./images/portfolio/img13.jpg" alt="macbook pro" width="370" height="294" />
+              <div class="overlay">
+                <img src="./images/portfolio/img13.jpg" alt="macbook pro" width="370" height="294" />
 
                 <p class="portfolio-description-text">Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить

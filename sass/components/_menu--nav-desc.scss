@@ -95,17 +95,17 @@ display: none;
      }
  }
 
-.currrent::after {
-    position: absolute;
-    display: flex;
-    gap: 50px;
-    content: "";
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    bottom: 0px;
-    background-color: var(--hover-color);
-}
+// .currrent::after {
+//     position: absolute;
+//     display: flex;
+//     gap: 50px;
+//     content: "";
+//     width: 100%;
+//     height: 4px;
+//     border-radius: 2px;
+//     bottom: 0px;
+//     background-color: var(--hover-color);
+
 
 .contact-info-mail__link {
     font-weight: 500;
