@@ -560,7 +560,7 @@ address {
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg.jpg);
   background-repeat: no-repeat;
   border-top: 0ch;
   background-size: cover;
@@ -574,6 +574,52 @@ address {
 @media screen and (min-width: 1200px) {
   .hero {
     padding: 200px 0;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/mobil/header-mobil.jpg");
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero {
+    background-size: auto;
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 480px) and (min-resolution: 192dpi), (min-width: 480px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/mobil/header-mobil2x.jpg");
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/order/phototablet(1x)_768.jpg");
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/order/phototablet(2x)_1536.jpg");
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/order/photodesktop(1x)_1600.jpg");
+    background-size: auto;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(to right, getColor("box-shadow-8"), getColor("box-shadow-8")), url("../images/order/photodesktop(2x)_3200.jpg");
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1601px) and (min-device-pixel-ratio: 2), (min-width: 1601px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1601px) and (min-resolution: 192dpi), (min-width: 1601x) and (min-resolution: 2dppx) {
+  .hero {
+    background-size: contain;
   }
 }
 
